@@ -5,7 +5,7 @@
  *  LIFF_ID_STAFF = LIFF ID ของหน้าหมอนวด (ใช้ในเฟส 7)
  * ========================================================== */
 window.NUAD_CONFIG = {
-  API_URL: 'https://script.google.com/macros/s/ใส่รหัสเว็บแอป/exec',
+  API_URL: 'https://script.google.com/macros/s/AKfycbxdsak9R4ytBefbihf1MZir_cEgVxMYc8pgjpQr0Zxd9dRt98wyoGXBcd6sI_PanXhVSw/exec',
   LIFF_ID: '',
   LIFF_ID_STAFF: ''
 };
