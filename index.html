@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#F26522">
+<title>จองคิวนวด</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="img/icon-192.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="stylesheet" href="assets/app.css">
+<style id="themeVars"></style>
+</head>
+<body>
+<div class="app" id="app">
+  <main id="view" aria-live="polite">
+    <div class="m-hero" style="padding-bottom:5rem"><div class="skel" style="height:40px;width:40%;opacity:.4"></div></div>
+    <div class="m-float"><div class="skel" style="height:120px"></div></div>
+  </main>
+</div>
+
+<nav class="bnav" id="bnav" aria-label="เมนูหลัก">
+  <button class="bn" data-nav="home"><i class="bi bi-house-door"></i>หน้าแรก</button>
+  <button class="bn" data-nav="search"><i class="bi bi-search"></i>ค้นหา</button>
+  <button class="bn" data-nav="book"><span class="bn-fab"><i class="bi bi-calendar2-plus"></i></span>จองคิว</button>
+  <button class="bn" data-nav="bookings"><i class="bi bi-receipt"></i>การจอง</button>
+  <button class="bn" data-nav="me"><i class="bi bi-person-circle"></i>ฉัน</button>
+</nav>
+
+<div class="scrim" id="scrim"></div>
+<section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="shTitle">
+  <div class="sh-grab"></div>
+  <div class="sh-head"><h3 id="shTitle"></h3><button class="icon-btn" id="shClose" aria-label="ปิด"><i class="bi bi-x-lg"></i></button></div>
+  <div id="shSteps"></div>
+  <div class="sh-body" id="shBody"></div>
+  <div class="sh-foot" id="shFoot"></div>
+</section>
+<div class="toast-x" id="toast" role="status"><i class="bi bi-info-circle"></i><span id="toastMsg"></span></div>
+
+<script src="https://static.line-scdn.net/liff/edge/2/sdk.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="config.js"></script>
+<script src="assets/core.js"></script>
+<script src="assets/customer.js"></script>
+<script>if ('serviceWorker' in navigator && location.protocol === 'https:') navigator.serviceWorker.register('sw.js').catch(function () {});</script>
+</body>
+</html>

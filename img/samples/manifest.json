@@ -1,0 +1,249 @@
+{
+  "title": "NuadOne · รายการรูปภาพตัวอย่างและ prompt",
+  "note": "ระบบไม่ได้แนบรูปจริง ให้สร้างรูปจาก prompt ด้วยเครื่องมือสร้างภาพที่ใช้อยู่ แล้วอัปโหลดผ่านหลังบ้านตามช่อง use (ระบบจะเก็บใน Google Drive ให้เอง) ขนาดที่แนะนำอยู่ในช่อง size",
+  "style_3d": "3D clay miniature render, soft studio lighting, warm orange (#F26522) and teal (#0F8B8D) accents, pastel background, rounded friendly shapes, high detail, no text, no watermark",
+  "style_photo": "realistic lifestyle photo, natural window light, warm wood and cream tones, shallow depth of field, clean and calm Thai spa interior, no text, no logo, no people's faces visible unless stated",
+  "count": 30,
+  "items": [
+    {
+      "slot": "hero_customer",
+      "file": "hero-customer.png",
+      "size": "1200x900 PNG พื้นหลังโปร่งใส",
+      "use": "หลังบ้าน > ตั้งค่า > หน้าตาและรูปภาพ > รูปภาพระบบ > หน้าแรกลูกค้า",
+      "th": "ฉากจำลองร้านนวดแบบดินปั้น 3D หมอนวดยิ้มกำลังนวดเท้าลูกค้าบนเบาะ มีลูกประคบ ถ้วยชา ต้นไม้",
+      "prompt": "A cozy miniature Thai massage shop diorama, a smiling therapist giving a foot massage to a relaxed customer on a floor mat, herbal compress balls, a teapot and cup, potted monstera, 3D clay miniature render, soft studio lighting, warm orange (#F26522) and teal (#0F8B8D) accents, pastel background, rounded friendly shapes, high detail, no text, no watermark, transparent background, isometric 3/4 view"
+    },
+    {
+      "slot": "hero_staff",
+      "file": "hero-staff.png",
+      "size": "1200x900 PNG พื้นหลังโปร่งใส",
+      "use": "รูปภาพระบบ > หน้าพนักงาน",
+      "th": "หมอนวดดินปั้น 3D ถือคลิปบอร์ดตารางคิว ข้างนาฬิกาและลูกประคบ",
+      "prompt": "A cheerful clay-style massage therapist character holding a clipboard with a daily schedule, a wall clock and herbal compress nearby, 3D clay miniature render, soft studio lighting, warm orange (#F26522) and teal (#0F8B8D) accents, pastel background, rounded friendly shapes, high detail, no text, no watermark, transparent background"
+    },
+    {
+      "slot": "hero_dashboard",
+      "file": "hero-dashboard.png",
+      "size": "1200x900 PNG พื้นหลังโปร่งใส",
+      "use": "รูปภาพระบบ > หน้าหลัก",
+      "th": "แท็บเล็ตแสดงกราฟและปฏิทินคิว ล้อมด้วยของใช้ร้านนวด",
+      "prompt": "A floating tablet showing a booking calendar and bar chart, surrounded by massage oil bottles, rolled towels and a lotus flower, 3D clay miniature render, soft studio lighting, warm orange (#F26522) and teal (#0F8B8D) accents, pastel background, rounded friendly shapes, high detail, no text, no watermark, transparent background"
+    },
+    {
+      "slot": "hero_login",
+      "file": "hero-login.png",
+      "size": "1000x1200 PNG พื้นหลังโปร่งใส",
+      "use": "รูปภาพระบบ > เข้าสู่ระบบ",
+      "th": "ประตูร้านนวดเปิดต้อนรับ ป้ายดอกบัว โคมไฟอุ่น",
+      "prompt": "A welcoming small massage shop entrance with an open wooden door, lotus sign without text, warm lanterns and plants, 3D clay miniature render, soft studio lighting, warm orange (#F26522) and teal (#0F8B8D) accents, pastel background, rounded friendly shapes, high detail, no text, no watermark, transparent background"
+    },
+    {
+      "slot": "service_thai",
+      "file": "service-thai.jpg",
+      "size": "1000x1000 JPG",
+      "use": "หลังบ้านร้าน > บริการ > แก้ไข นวดไทยแผนโบราณ > รูปบริการ",
+      "th": "นวดไทยแผนโบราณ",
+      "prompt": "traditional Thai massage on a floor mat, therapist hands pressing a client's back, herbal compress and folded towels nearby, realistic lifestyle photo, natural window light, warm wood and cream tones, shallow depth of field, clean and calm Thai spa interior, no text, no logo, no people's faces visible unless stated, square composition"
+    },
+    {
+      "slot": "service_oil",
+      "file": "service-oil.jpg",
+      "size": "1000x1000 JPG",
+      "use": "หลังบ้านร้าน > บริการ > แก้ไข นวดน้ำมันอโรมา > รูปบริการ",
+      "th": "นวดน้ำมันอโรมา",
+      "prompt": "aromatherapy oil massage on a massage bed, amber oil bottles, candles and white orchids, realistic lifestyle photo, natural window light, warm wood and cream tones, shallow depth of field, clean and calm Thai spa interior, no text, no logo, no people's faces visible unless stated, square composition"
+    },
+    {
+      "slot": "service_foot",
+      "file": "service-foot.jpg",
+      "size": "1000x1000 JPG",
+      "use": "หลังบ้านร้าน > บริการ > แก้ไข นวดเท้า > รูปบริการ",
+      "th": "นวดเท้า",
+      "prompt": "foot reflexology on a reclining chair, warm towel, small wooden foot bowl with flowers, realistic lifestyle photo, natural window light, warm wood and cream tones, shallow depth of field, clean and calm Thai spa interior, no text, no logo, no people's faces visible unless stated, square composition"
+    },
+    {
+      "slot": "service_compress",
+      "file": "service-compress.jpg",
+      "size": "1000x1000 JPG",
+      "use": "หลังบ้านร้าน > บริการ > แก้ไข ประคบสมุนไพร > รูปบริการ",
+      "th": "ประคบสมุนไพร",
+      "prompt": "steaming Thai herbal compress balls on a banana leaf, lemongrass, turmeric and kaffir lime, realistic lifestyle photo, natural window light, warm wood and cream tones, shallow depth of field, clean and calm Thai spa interior, no text, no logo, no people's faces visible unless stated, square composition"
+    },
+    {
+      "slot": "service_face",
+      "file": "service-face.jpg",
+      "size": "1000x1000 JPG",
+      "use": "หลังบ้านร้าน > บริการ > แก้ไข อโรมาบำบัดหน้า > รูปบริการ",
+      "th": "อโรมาบำบัดหน้า",
+      "prompt": "gentle facial aromatherapy massage, client lying with eyes closed, soft white towel headband, realistic lifestyle photo, natural window light, warm wood and cream tones, shallow depth of field, clean and calm Thai spa interior, no text, no logo, no people's faces visible unless stated, square composition"
+    },
+    {
+      "slot": "service_neck",
+      "file": "service-neck.jpg",
+      "size": "1000x1000 JPG",
+      "use": "หลังบ้านร้าน > บริการ > แก้ไข คอ บ่า ไหล่ > รูปบริการ",
+      "th": "คอ บ่า ไหล่",
+      "prompt": "neck and shoulder massage for office syndrome, client seated in a massage chair, realistic lifestyle photo, natural window light, warm wood and cream tones, shallow depth of field, clean and calm Thai spa interior, no text, no logo, no people's faces visible unless stated, square composition"
+    },
+    {
+      "slot": "service_applied",
+      "file": "service-applied.jpg",
+      "size": "1000x1000 JPG",
+      "use": "หลังบ้านร้าน > บริการ > แก้ไข นวดไทยประยุกต์ > รูปบริการ",
+      "th": "นวดไทยประยุกต์",
+      "prompt": "applied Thai massage with assisted stretching, yoga-like pose on a mat, realistic lifestyle photo, natural window light, warm wood and cream tones, shallow depth of field, clean and calm Thai spa interior, no text, no logo, no people's faces visible unless stated, square composition"
+    },
+    {
+      "slot": "service_stone",
+      "file": "service-stone.jpg",
+      "size": "1000x1000 JPG",
+      "use": "หลังบ้านร้าน > บริการ > แก้ไข นวดหินร้อน > รูปบริการ",
+      "th": "นวดหินร้อน",
+      "prompt": "hot basalt stones placed along a client's back on a massage bed, steam and eucalyptus, realistic lifestyle photo, natural window light, warm wood and cream tones, shallow depth of field, clean and calm Thai spa interior, no text, no logo, no people's faces visible unless stated, square composition"
+    },
+    {
+      "slot": "shop_DMA_1",
+      "file": "shop-dma-1.jpg",
+      "size": "1600x1200 JPG",
+      "use": "หลังบ้านร้าน ศาลานวดสุขใจ สุขุมวิท > ตั้งค่า > รูปร้าน",
+      "th": "ศาลานวดสุขใจ สุขุมวิท รูปที่ 1",
+      "prompt": "modern Thai wood interior with floor mats in a row, storefront at dusk, inviting entrance, realistic lifestyle photo, natural window light, warm wood and cream tones, shallow depth of field, clean and calm Thai spa interior, no text, no logo, no people's faces visible unless stated, 4:3"
+    },
+    {
+      "slot": "shop_DMA_2",
+      "file": "shop-dma-2.jpg",
+      "size": "1600x1200 JPG",
+      "use": "หลังบ้านร้าน ศาลานวดสุขใจ สุขุมวิท > ตั้งค่า > รูปร้าน",
+      "th": "ศาลานวดสุขใจ สุขุมวิท รูปที่ 2",
+      "prompt": "modern Thai wood interior with floor mats in a row, main massage room overview, realistic lifestyle photo, natural window light, warm wood and cream tones, shallow depth of field, clean and calm Thai spa interior, no text, no logo, no people's faces visible unless stated, 4:3"
+    },
+    {
+      "slot": "shop_DMA_3",
+      "file": "shop-dma-3.jpg",
+      "size": "1600x1200 JPG",
+      "use": "หลังบ้านร้าน ศาลานวดสุขใจ สุขุมวิท > ตั้งค่า > รูปร้าน",
+      "th": "ศาลานวดสุขใจ สุขุมวิท รูปที่ 3",
+      "prompt": "modern Thai wood interior with floor mats in a row, detail of towels, oils and herbal compress on a tray, realistic lifestyle photo, natural window light, warm wood and cream tones, shallow depth of field, clean and calm Thai spa interior, no text, no logo, no people's faces visible unless stated, 4:3"
+    },
+    {
+      "slot": "shop_DMA_4",
+      "file": "shop-dma-4.jpg",
+      "size": "1600x1200 JPG",
+      "use": "หลังบ้านร้าน ศาลานวดสุขใจ สุขุมวิท > ตั้งค่า > รูปร้าน",
+      "th": "ศาลานวดสุขใจ สุขุมวิท รูปที่ 4",
+      "prompt": "modern Thai wood interior with floor mats in a row, relaxation lounge with herbal tea, realistic lifestyle photo, natural window light, warm wood and cream tones, shallow depth of field, clean and calm Thai spa interior, no text, no logo, no people's faces visible unless stated, 4:3"
+    },
+    {
+      "slot": "shop_DMB_1",
+      "file": "shop-dmb-1.jpg",
+      "size": "1600x1200 JPG",
+      "use": "หลังบ้านร้าน บ้านอโรมาเพลินจิต > ตั้งค่า > รูปร้าน",
+      "th": "บ้านอโรมาเพลินจิต รูปที่ 1",
+      "prompt": "quiet aromatherapy spa with private bed rooms and soft curtains, storefront at dusk, inviting entrance, realistic lifestyle photo, natural window light, warm wood and cream tones, shallow depth of field, clean and calm Thai spa interior, no text, no logo, no people's faces visible unless stated, 4:3"
+    },
+    {
+      "slot": "shop_DMB_2",
+      "file": "shop-dmb-2.jpg",
+      "size": "1600x1200 JPG",
+      "use": "หลังบ้านร้าน บ้านอโรมาเพลินจิต > ตั้งค่า > รูปร้าน",
+      "th": "บ้านอโรมาเพลินจิต รูปที่ 2",
+      "prompt": "quiet aromatherapy spa with private bed rooms and soft curtains, main massage room overview, realistic lifestyle photo, natural window light, warm wood and cream tones, shallow depth of field, clean and calm Thai spa interior, no text, no logo, no people's faces visible unless stated, 4:3"
+    },
+    {
+      "slot": "shop_DMB_3",
+      "file": "shop-dmb-3.jpg",
+      "size": "1600x1200 JPG",
+      "use": "หลังบ้านร้าน บ้านอโรมาเพลินจิต > ตั้งค่า > รูปร้าน",
+      "th": "บ้านอโรมาเพลินจิต รูปที่ 3",
+      "prompt": "quiet aromatherapy spa with private bed rooms and soft curtains, detail of towels, oils and herbal compress on a tray, realistic lifestyle photo, natural window light, warm wood and cream tones, shallow depth of field, clean and calm Thai spa interior, no text, no logo, no people's faces visible unless stated, 4:3"
+    },
+    {
+      "slot": "shop_DMB_4",
+      "file": "shop-dmb-4.jpg",
+      "size": "1600x1200 JPG",
+      "use": "หลังบ้านร้าน บ้านอโรมาเพลินจิต > ตั้งค่า > รูปร้าน",
+      "th": "บ้านอโรมาเพลินจิต รูปที่ 4",
+      "prompt": "quiet aromatherapy spa with private bed rooms and soft curtains, relaxation lounge with herbal tea, realistic lifestyle photo, natural window light, warm wood and cream tones, shallow depth of field, clean and calm Thai spa interior, no text, no logo, no people's faces visible unless stated, 4:3"
+    },
+    {
+      "slot": "shop_DMC_1",
+      "file": "shop-dmc-1.jpg",
+      "size": "1600x1200 JPG",
+      "use": "หลังบ้านร้าน นวดเท้าริมทาง นิมมาน > ตั้งค่า > รูปร้าน",
+      "th": "นวดเท้าริมทาง นิมมาน รูปที่ 1",
+      "prompt": "open-air Chiang Mai foot massage shop with reclining chairs under string lights, storefront at dusk, inviting entrance, realistic lifestyle photo, natural window light, warm wood and cream tones, shallow depth of field, clean and calm Thai spa interior, no text, no logo, no people's faces visible unless stated, 4:3"
+    },
+    {
+      "slot": "shop_DMC_2",
+      "file": "shop-dmc-2.jpg",
+      "size": "1600x1200 JPG",
+      "use": "หลังบ้านร้าน นวดเท้าริมทาง นิมมาน > ตั้งค่า > รูปร้าน",
+      "th": "นวดเท้าริมทาง นิมมาน รูปที่ 2",
+      "prompt": "open-air Chiang Mai foot massage shop with reclining chairs under string lights, main massage room overview, realistic lifestyle photo, natural window light, warm wood and cream tones, shallow depth of field, clean and calm Thai spa interior, no text, no logo, no people's faces visible unless stated, 4:3"
+    },
+    {
+      "slot": "shop_DMC_3",
+      "file": "shop-dmc-3.jpg",
+      "size": "1600x1200 JPG",
+      "use": "หลังบ้านร้าน นวดเท้าริมทาง นิมมาน > ตั้งค่า > รูปร้าน",
+      "th": "นวดเท้าริมทาง นิมมาน รูปที่ 3",
+      "prompt": "open-air Chiang Mai foot massage shop with reclining chairs under string lights, detail of towels, oils and herbal compress on a tray, realistic lifestyle photo, natural window light, warm wood and cream tones, shallow depth of field, clean and calm Thai spa interior, no text, no logo, no people's faces visible unless stated, 4:3"
+    },
+    {
+      "slot": "shop_DMC_4",
+      "file": "shop-dmc-4.jpg",
+      "size": "1600x1200 JPG",
+      "use": "หลังบ้านร้าน นวดเท้าริมทาง นิมมาน > ตั้งค่า > รูปร้าน",
+      "th": "นวดเท้าริมทาง นิมมาน รูปที่ 4",
+      "prompt": "open-air Chiang Mai foot massage shop with reclining chairs under string lights, relaxation lounge with herbal tea, realistic lifestyle photo, natural window light, warm wood and cream tones, shallow depth of field, clean and calm Thai spa interior, no text, no logo, no people's faces visible unless stated, 4:3"
+    },
+    {
+      "slot": "staff_แอน",
+      "file": "staff-f-1.png",
+      "size": "800x800 PNG",
+      "use": "หลังบ้านร้าน > หมอนวด > แก้ไข แอน > รูป",
+      "th": "รูปโปรไฟล์ แอน",
+      "prompt": "Portrait avatar of a friendly Thai female massage therapist in a neat earth-tone uniform, warm smile, 3D clay miniature render, soft studio lighting, warm orange (#F26522) and teal (#0F8B8D) accents, pastel background, rounded friendly shapes, high detail, no text, no watermark, plain pastel circle background, head and shoulders"
+    },
+    {
+      "slot": "staff_นพ",
+      "file": "staff-m-2.png",
+      "size": "800x800 PNG",
+      "use": "หลังบ้านร้าน > หมอนวด > แก้ไข นพ > รูป",
+      "th": "รูปโปรไฟล์ นพ",
+      "prompt": "Portrait avatar of a friendly Thai male massage therapist in a neat earth-tone uniform, warm smile, 3D clay miniature render, soft studio lighting, warm orange (#F26522) and teal (#0F8B8D) accents, pastel background, rounded friendly shapes, high detail, no text, no watermark, plain pastel circle background, head and shoulders"
+    },
+    {
+      "slot": "staff_จอย",
+      "file": "staff-f-3.png",
+      "size": "800x800 PNG",
+      "use": "หลังบ้านร้าน > หมอนวด > แก้ไข จอย > รูป",
+      "th": "รูปโปรไฟล์ จอย",
+      "prompt": "Portrait avatar of a friendly Thai female massage therapist in a neat earth-tone uniform, warm smile, 3D clay miniature render, soft studio lighting, warm orange (#F26522) and teal (#0F8B8D) accents, pastel background, rounded friendly shapes, high detail, no text, no watermark, plain pastel circle background, head and shoulders"
+    },
+    {
+      "slot": "staff_มิว",
+      "file": "staff-f-4.png",
+      "size": "800x800 PNG",
+      "use": "หลังบ้านร้าน > หมอนวด > แก้ไข มิว > รูป",
+      "th": "รูปโปรไฟล์ มิว",
+      "prompt": "Portrait avatar of a friendly Thai female massage therapist in a neat earth-tone uniform, warm smile, 3D clay miniature render, soft studio lighting, warm orange (#F26522) and teal (#0F8B8D) accents, pastel background, rounded friendly shapes, high detail, no text, no watermark, plain pastel circle background, head and shoulders"
+    },
+    {
+      "slot": "staff_ต้น",
+      "file": "staff-m-5.png",
+      "size": "800x800 PNG",
+      "use": "หลังบ้านร้าน > หมอนวด > แก้ไข ต้น > รูป",
+      "th": "รูปโปรไฟล์ ต้น",
+      "prompt": "Portrait avatar of a friendly Thai male massage therapist in a neat earth-tone uniform, warm smile, 3D clay miniature render, soft studio lighting, warm orange (#F26522) and teal (#0F8B8D) accents, pastel background, rounded friendly shapes, high detail, no text, no watermark, plain pastel circle background, head and shoulders"
+    },
+    {
+      "slot": "staff_ฝ้าย",
+      "file": "staff-f-6.png",
+      "size": "800x800 PNG",
+      "use": "หลังบ้านร้าน > หมอนวด > แก้ไข ฝ้าย > รูป",
+      "th": "รูปโปรไฟล์ ฝ้าย",
+      "prompt": "Portrait avatar of a friendly Thai female massage therapist in a neat earth-tone uniform, warm smile, 3D clay miniature render, soft studio lighting, warm orange (#F26522) and teal (#0F8B8D) accents, pastel background, rounded friendly shapes, high detail, no text, no watermark, plain pastel circle background, head and shoulders"
+    }
+  ]
+}
